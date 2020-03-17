@@ -1,8 +1,13 @@
 /*
+<<<<<<< HEAD
  * Make an array method that can return whether or not a context 
  array is a
  * subset of an input array.  
  To simplify the problem, you can assume that neither
+=======
+ * Make an array method that can return whether or not a context array is a
+ * subset of an input array.  To simplify the problem, you can assume that neither
+>>>>>>> 6ec0970fc023efe33b16b3191d659985a835ba56
  * array will contain objects or arrays as elements within them.
  *
  *
@@ -15,6 +20,7 @@
  *
  * b.isSubsetOf(['reset','merge','add','commit']) // true
  *
+<<<<<<< HEAD
  * See http://en.wikipedia.org/wiki/Subset for more on the definition
  *  of a
  * subset.
@@ -33,4 +39,14 @@ Array.prototype.isSubsetOf = function (arr) {
         }
 
     }
+=======
+ * See http://en.wikipedia.org/wiki/Subset for more on the definition of a
+ * subset.
+*/
+/*
+ * Extra credit: Make the method work for arrays that contain objects and/or arrays as elements.
+*/
+Array.prototype.isSubsetOf = function (arr) {
+    // your code here
+>>>>>>> 6ec0970fc023efe33b16b3191d659985a835ba56
 };

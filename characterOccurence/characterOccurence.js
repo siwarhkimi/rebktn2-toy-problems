@@ -14,6 +14,7 @@
  // result  =  123456789101112
 
 
+<<<<<<< HEAD
  function occurence(string) {
     var acc = 0;
     var result = "1";
@@ -38,4 +39,7 @@
   
   return Number(result)
 }
+=======
+
+>>>>>>> 6ec0970fc023efe33b16b3191d659985a835ba56
  
