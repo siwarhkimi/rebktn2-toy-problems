@@ -31,7 +31,7 @@ var Queue = function() {
   };
 
   this.dequeue = function() {
-    outbox = inbox.reverse();
+    outbox = inbox.reverse();// I know that inbox is not an array, it is a copy of Slack so .reverse() doesn't work 
     return outbox.pop()
   };
 
