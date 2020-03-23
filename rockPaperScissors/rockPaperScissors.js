@@ -18,7 +18,17 @@
 *
 */
 
-var rockPaperScissors = function (
-) {
-  // TODO: your solution here
+var rockPaperScissors = function (number) {
+  var rps = ['R','P','S'];
+  var array = [];
+  var arr =[];
+
+  for(var i = 0; i < rps.length; i++) {
+    array.push([rps[i]])
+    if(number === array.length || number === 3) {
+      arr.push(array[i])
+    }
+    rockPaperScissors()
+
+  }
 };

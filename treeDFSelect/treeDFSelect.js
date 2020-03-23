@@ -34,8 +34,12 @@ var Tree = function(value) {
   this.value = value;
   this.children = [];
 };
-
+/** DFSelect accepts a filter function, calls that function on each of the nodes
+  * in Depth First order, and returns a flat array of node values of the tree
+  * for which the filter returns true.
+ */
 Tree.prototype.DFSelect = function(filter) {
+  return this.children.filter(filter).flat();
 };
 
 
