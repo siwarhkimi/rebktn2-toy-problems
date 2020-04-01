@@ -13,5 +13,14 @@
   */
 
 var allAnagrams = function(string) {
-  // Your code here.
+  // var array = [];
+  // var str = ""
+
+  // for(var i = 0; i < string.length; i++) {
+  //  str = string.slice(i)
+  //  for(var j = 0; j < str.length; j++) {
+
+  //  }
+  // }
+
 };
