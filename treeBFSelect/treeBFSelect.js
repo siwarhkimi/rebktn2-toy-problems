@@ -1,5 +1,4 @@
-/**
-  *
+/*
   * Implement a `BFSelect` method on this Tree class.
   *
   * BFSelect accepts a filter function, calls that function on each of the nodes
@@ -24,8 +23,6 @@
   *   })
   *   // [2, 3]
   *
-  */
-
 /*
  * Basic tree that stores a value.
  */
@@ -38,6 +35,7 @@ var Tree = function(value) {
 
 
 Tree.prototype.BFSelect = function(filter) {
+  var arr = []
   // return an array of values for which the function filter(value, depth) returns true
 };
 
