@@ -5,7 +5,6 @@
  * asyncMap has two parameters, an array of asynchronous functions (tasks) and a final-result callback.
  * Each of the tasks receives a task-specific callback that must be invoked when the task completes.
  * The final-result callback passed to asyncMap receives the results collected by the task-specfic callbacks.
- *
  * The order of these results should be the same as the order of the tasks.
  * It is important to note that this is not the order in which the tasks return,
  * but the order in which they are passed to asyncMap.
@@ -39,4 +38,7 @@
 
 
 var asyncMap = function(tasks, callback) {
+
+    var results = [];
+
 };
